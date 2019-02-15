@@ -248,6 +248,65 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+/* about-page main area css */
+.container-about-page{
+    width: 800px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container-about-page .page-content{
+    border-top: 2px dotted gray;
+    border-bottom: 2px dotted gray;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.container-about-page .page-content .card{
+    width: 48%;
+      
+}
+.container-about-page .page-content .card.one{
+    display: flex;
+    flex-direction: column;
+    line-height: 1
+    padding-top: 25px;
+    border-bottom: 3px dotted gray;
+}
+.container-about-page .page-content .card.two{
+    display: flex;
+    flex-direction: column;
+    line-height: 1
+    padding-top: 5px;
+    border-bottom: 3px dotted gray;
+}
+.container-about-page .page-content .card.three{
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    line-height: 1
+    padding: 5px;
+    
+}
+.container-about-page .page-content .card.four{
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    line-height: 1
+    padding: 5px;
+    
+}
+.container-about-page button{
+    width: 40%;
+    margin: 5px 0;
+    font-size: 15px;
+    padding 20px 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+
+}
 
 footer {
     width: 100%;
