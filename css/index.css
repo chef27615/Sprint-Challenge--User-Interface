@@ -295,7 +295,7 @@ p {
     align-content: space-between
     line-height: 1
     padding-top: 5px;
-    border-bottom: 2px dotted gray;
+    border-bottom: 1px dashed black;
     
 }
 .container-about-page .page-content .card.two{
@@ -303,14 +303,14 @@ p {
     flex-direction: column;
     line-height: 1
     padding-top: 5px;
-    border-bottom: 2px dotted gray;
+    border-bottom: 1px dashed black;
 }
 .container-about-page .page-content .card.three{
     display: flex;
     flex-direction: column;
     padding-top: 25px;
     line-height: 1;
-    padding: 5px;
+    margin-top: 20px;
     
 }
 .container-about-page .page-content .card.four{
@@ -318,7 +318,7 @@ p {
     flex-direction: column;
     padding-top: 25px;
     line-height: 1;
-    padding: 5px;
+    margin-top: 20px;
     
 }
 .container-about-page button{
