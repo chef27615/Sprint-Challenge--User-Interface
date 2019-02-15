@@ -269,7 +269,7 @@ p {
 .container-about-page .page-content{
     border-top: 2px dotted gray;
     border-bottom: 2px dotted gray;
-    padding: 5px;
+    padding: 30px 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -277,21 +277,29 @@ p {
 }
 .container-about-page .page-content .card{
     width: 48%;
-      
+    
+
+}
+.container-about-page h2{
+    /* border: 1px solid red; */
+    height: 50px;
+    padding-top: 25px;
 }
 .container-about-page .page-content .card.one{
     display: flex;
     flex-direction: column;
+    align-content: space-between
     line-height: 1
-    padding-top: 25px;
-    border-bottom: 3px dotted gray;
+    padding-top: 5px;
+    border-bottom: 2px dotted gray;
+    
 }
 .container-about-page .page-content .card.two{
     display: flex;
     flex-direction: column;
     line-height: 1
     padding-top: 5px;
-    border-bottom: 3px dotted gray;
+    border-bottom: 2px dotted gray;
 }
 .container-about-page .page-content .card.three{
     display: flex;
@@ -311,7 +319,8 @@ p {
 }
 .container-about-page button{
     width: 40%;
-    margin: 5px 0;
+    height: 45px;
+    margin: 30px 0;
     font-size: 15px;
     padding 20px 10px;
     border: 3px solid black;
