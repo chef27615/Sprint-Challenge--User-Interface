@@ -333,22 +333,38 @@ p {
 }
 .page-cta{
     margin: 30px;
+    
 
 }
 /* contact page CSS */
 .cpf-section{
-    border: 1px solid red;
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    margin: 30px 0;
     height: 750px;
-    margin: 30px;
+    width: 800px;
+    /* margin: 30px; */
 }
 
 .form{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
-    flex-direction: column;
-    padding: 30px;
+    height: 500px;
+    justify-content: space-around;
+    margin: 30% 0;
+    padding: 40px;
 }
 
+.contact-info input{
+    width: 300px;
+    height: 50px;
+    margin: 25px;
+}
+.form .msg-space input{
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+}
 /* footer section css */
 footer {
     width: 100%;
