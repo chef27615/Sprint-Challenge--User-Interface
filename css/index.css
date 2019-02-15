@@ -335,7 +335,21 @@ p {
     margin: 30px;
 
 }
+/* contact page CSS */
+.cpf-section{
+    border: 1px solid red;
+    height: 750px;
+    margin: 30px;
+}
 
+.form{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+/* footer section css */
 footer {
     width: 100%;
     background: black;
