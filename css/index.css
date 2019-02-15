@@ -106,6 +106,10 @@ p {
     padding-bottom: 20px;  
 }
 
+.top-content .text-container h2{
+    margin-top: 30px
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -261,14 +265,14 @@ p {
     display: flex;
     flex-direction: column;
     /* border: 1px solid red; */
-    margin: 30px 0;
+    margin: 30px;
     line-height: 1;
 
 }
 
 .container-about-page .page-content{
-    border-top: 2px dotted gray;
-    border-bottom: 2px dotted gray;
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
     padding: 30px 10px;
     display: flex;
     flex-wrap: wrap;
